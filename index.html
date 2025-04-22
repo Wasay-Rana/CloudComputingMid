@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h1>Mid Term Exam - Wasay</h1>
+        <p>Enviroment: <span id="env"></span></p>
+        <script>
+            document.getElementById('env').innerText = document.location.hostname.includes("azurewebsites")? "Azure" : "Unknown";
+        </script>
+    </body>
+</html>
